@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./../public/images/background.jpg');
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Customize CSS */
+#try-glasses {
+  margin: 50px 0px;
+}
+
+#try-glasses .position-glasses {
+  position: relative;
+  height: 585px;
+  background-image: url('./../public/images/model.jpg');
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#try-glasses .position-glasses img {
+  position: absolute;
+  top: 150px;
+  left: 420px;
+  width: 270px;
 }
